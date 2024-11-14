@@ -1,0 +1,2 @@
+export const MAX_CREATION_ATTEMPTS = 10;                               // Maximum attempts to create a short URL
+export const DEFAULT_LIFETIME = 1000 * 60 * 60 * 24 * 365;  // Duration for auto expiration

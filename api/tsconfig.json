@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                   // Compiles TypeScript to ES6 (ES2015) JavaScript, which is a modern JavaScript version
+    "module": "commonjs",              // Uses CommonJS module system, typical for Node.js applications
+    "outDir": "build",                 // Specifies the output directory for compiled files (in your case, it's "build")
+    "rootDir": "src",                  // Specifies the root directory of your TypeScript source files (in your case, it's "src")
+    "strict": true,                    // Enables all strict type-checking options
+    "esModuleInterop": true,           // Enables compatibility between CommonJS and ES Module imports
+    "allowSyntheticDefaultImports": true, // Allows default imports from modules that don't have a default export
+  
+    "resolveJsonModule": true,             // Allows importing JSON files
+    "skipLibCheck": true,                  // Skip type checking of library files
+    "moduleResolution": "node",            // Resolves modules the same way Node.js does
+    "forceConsistentCasingInFileNames": true, // Ensures consistent casing of file names
+    "strictPropertyInitialization": true   // Ensures class properties are initialized correctly
+  }
+}

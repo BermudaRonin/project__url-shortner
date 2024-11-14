@@ -1,0 +1,7 @@
+.env
+node_modules
+/api/build
+*.rest
+draft.md
+draft.js
+/demo
